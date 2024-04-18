@@ -3,6 +3,11 @@
     src: url("./Heading-Now-Variable.ttf");
 }
 
+@font-face {
+    font-family: monu;
+    src: url("./MonumentExtended-FreeForPersonalUse/MonumentExtended-Regular.otf");
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -14,6 +19,26 @@ html,
 body {
     height: 100%;
     width: 100%;
+}
+
+.loader {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(0, 64, 255);
+    position: fixed;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.loader h1 {
+    font-size: 100px;
+    font-family: monu;
+    color: #000;
+    font-weight: 100;
+
 }
 
 .page1 {
